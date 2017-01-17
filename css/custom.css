@@ -2,26 +2,13 @@
     width: 100% !important;
     height: 675px !important;
 }
+.img-latest {
+    height: 180px;
+    width: 200px;
+}
 
 
 /*--header--*/
-
-.hero-movil {
-    background: url(../images/bg_header.png);
-    background-position: bottom center;
-    background-size: 1600px auto;
-    background-repeat: repeat-x;
-    height: 80vh;
-    display: none;
-}
-
-.hero-mtxt {
-    font-size: 2em;
-    text-align: center;
-    color: white;
-    font-family: 'Ubuntu-Bold';
-    padding-top: 50%;
-}
 
 .head {
     position: relative;
@@ -169,12 +156,6 @@ div#bs-megadropdown-tabs {
     color: #000;
     margin-bottom: 0.5em;
     font-family: 'Ubuntu-Regular';
-}
-
-.hero-txt {
-    font-size: 3em;
-    font-style: normal;
-    font-family: 'Ubuntu-Bold';
 }
 
 #carousel-example {

@@ -628,7 +628,7 @@ body {
 }
 
 .icon1 ul a {
-	_height: 10px;
+	height: 10px;
 	/*IE6 only*/
 	white-space: nowrap;
 	float: none;
@@ -643,7 +643,7 @@ body {
 	content: '';
 	position: absolute;
 	right: 0%;
-	top: -30px;
+	top: -10px;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
 	border-bottom: 10px solid #f0f0f0;
@@ -833,7 +833,7 @@ body {
 	background: #ADEA8D;
 	color: #666;
 	padding: 8px 20px;
-	margin-left: 30px;
+	margin-left: 4px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
