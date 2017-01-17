@@ -7,11 +7,11 @@
 /*--header--*/
 
 .hero-movil {
-    background: url(../images/slider1.jpg);
+    background: url(../images/bg_header.png);
     background-position: bottom center;
     background-size: 1600px auto;
     background-repeat: repeat-x;
-    height: 90vh;
+    height: 80vh;
     display: none;
 }
 
