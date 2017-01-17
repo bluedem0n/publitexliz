@@ -252,12 +252,9 @@ body {
 
 .header_bg {
 	background: #ffffff;
+	background-image: url("../images/bg_header.png");
+	background-repeat: no-repeat;
 }
-
-.header {
-	padding: 2%;
-}
-
 .logo {
 	float: left;
 	max-width: 40%;

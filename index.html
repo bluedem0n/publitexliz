@@ -6,137 +6,155 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
-	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<!-- start slider -->
 	<link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
-	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
-	<script type="text/javascript" src="js/jquery.cslider.js"></script>
-	<script type="text/javascript">
-		$(function () {
-			$('#da-slider').cslider();
-		});
-	</script>
 	<!-- Owl Carousel Assets -->
 	<link href="css/owl.carousel.css" rel="stylesheet">
-	<!-- Owl Carousel Assets -->
-	<!-- Prettify -->
-	<script src="js/owl.carousel.js"></script>
-	<script>
-		$(document).ready(function () {
-
-			$("#owl-demo").owlCarousel({
-				items: 4,
-				lazyLoad: true,
-				autoPlay: true,
-				navigation: true,
-				navigationText: ["", ""],
-				rewindNav: false,
-				scrollPerPage: false,
-				pagination: false,
-				paginationNumbers: false,
-			});
-
-		});
-	</script>
-	<!-- //Owl Carousel Assets -->
-	<!-- start top_js_button -->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({
-					scrollTop: $(this.hash).offset().top
-				}, 1200);
-			});
-		});
-	</script>
 </head>
 
 <body>
-	<!-- start header -->
-	<div class="header_bg">
-		<div class="wrap">
-			<div class="header">
+	<div class="header" id="home">
+		<div class="container">
+			<div class="head">
 				<div class="logo">
-					<a href="index.html"><img class="logo" src="images/logo.png" alt="" /> </a>
+					<a href="index.html"><img src="images/logo.png" alt=""></a>
 				</div>
-				<div class="clear"></div>
 			</div>
 		</div>
-	</div>
-	<div class="header_btm">
-		<div class="wrap">
-			<div class="header_sub">
-				<div class="h_menu">
-					<ul>
-						<li class="active"><a href="index.html">Inicio</a></li> |
-						<li><a href="catalogo.html">Catálogo</a></li> |
-						<li><a href="nosotros.html">Nosotros</a></li> |
-						<li><a href="servicios.html">Servicios</a></li> |
-						<li><a href="clientes.html">Clientes</a></li> |
-						<li><a href="contact.html">Contactos</a></li>
-					</ul>
-				</div>
-				<div class="top-nav">
-					<nav class="nav">
-						<a href="#" id="w3-menu-trigger"> </a>
-						<ul class="nav-list" style="">
-							<li class="nav-item"><a class="active" href="index.html">Home</a></li>
-							<li class="nav-item"><a href="#">Catálogo</a></li>
-							<li class="nav-item"><a href="#">Nosotros</a></li>
-							<li class="nav-item"><a href="#">Servicios</a></li>
-							<li class="nav-item"><a href="#">Clientes</a></li>
-							<li class="nav-item"><a href="#">Contactos</a></li>
-						</ul>
+		<div class="container">
+			<div class="head-top">
+				<div class="col-sm-8 col-md-offset-2 h_menu4">
+					<nav class="navbar nav_bottom" role="navigation">
+						<div class="navbar-header nav_2">
+							<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+						</div>
+						<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+							<ul class="nav navbar-nav nav_1">
+								<li class="dropdown mega-dropdown active"> <a class="color1" href="#" class="dropdown-toggle" data-toggle="dropdown">Catálogo<span class="caret"></span></a>
+									<div class="dropdown-menu ">
+										<div class="menu-top">
+											<div class="col1">
+												<div class="h_nav">
+													<ul>
+														<li>
+															<a href="catalogo.html"></a>
+														</li>
+														<li><a href="catalogo.html">Camisas</a></li>
+														<li><a href="catalogo.html">Canguros</a></li>
+														<li><a href="catalogo.html">Casacas</a></li>
+														<li><a href="catalogo.html">Chalecos</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<ul>
+														<li><a href="catalogo.html">Uniformes Escolares</a></li>
+														<li><a href="catalogo.html">Polos Deportivos</a></li>
+														<li><a href="catalogo.html">Polos Clásicos</a></li>
+														<li><a href="catalogo.html">Polos Camiseros</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<ul>
+														<li><a href="catalogo.html">Ponchos Impermeables</a></li>
+														<li><a href="catalogo.html">Guarda Polvos</a></li>
+														<li><a href="catalogo.html">Gorros</a></li>
+														<li><a href="catalogo.html">Overoles</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<ul>
+														<li><a href="catalogo.html">Loncheras</a></li>
+														<li><a href="catalogo.html">Pantalones</a></li>
+														<li><a href="catalogo.html">Mochilas</a></li>
+														<li><a href="catalogo.html">Calzado</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="col1">
+											</div>
+											<div class="col1 col6"> <img src="images/camisas/camisa5.png" class="img-responsive" alt=""> </div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+								</li>
+								<li><a class="color3" href="nosotros.html">Nosotros</a></li>
+								<li><a class="color3" href="clientes.html">Clientes</a></li>
+								<li><a class="color3" href="servicios.html">Servicios</a></li>
+								<li><a class="color3" href="contact.html">Contacto</a></li>
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
 					</nav>
-					<div class="search_box">
-						<form>
-							<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-							<input type="submit" value="">
-						</form>
-					</div>
-					<div class="clear"> </div>
-					<script src="js/responsive.menu.js"></script>
 				</div>
-				<div class="clear"></div>
+				<div class="col-sm-2 search-right">
+					<div class="cart box_1">
+						<a href="checkout.html">
+							<h3> 
+                                <div class="total">
+                                    <span class="simpleCart_total"></span>
+                                </div>
+                                <img class="imgcart" src="images/cart.png" alt=""/>
+                            </h3> </a>
+						<p><a href="javascript:;" class="simpleCart_empty">No hay elementos</a></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
-	</div>
-	<!-- start slider -->
-	<div id="da-slider" class="da-slider">
-		<div class="da-slide">
-			<h2>Bienvenido a Publitexliz</h2>
-			<p>
-				Publitexliz es una empresa dedicada a la confección de ropa industrial publicitaria, minera hospitalaria educativa casual y deportiva.</p>
-			<a href="#" class="da-link">Comprar Ahora</a>
-			<div class="da-img"><img src="images/camisas/camisa1.png" alt="image01" /></div>
+
+
+		<div id="carousel-example" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example" data-slide-to="1"></li>
+				<li data-target="#carousel-example" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<a href="#"><img class="img-slider" src="images/ropa1.jpg"></a>
+					<div class="slider-text-right">
+						<h2>Bienvenido a Publitexliz</h2>
+						<p>
+							Publitexliz es una empresa dedicada a la confección de ropa industrial publicitaria, minera hospitalaria educativa casual y deportiva.
+						</p>
+						<a href="#" class="da-link">Comprar Ahora</a>
+					</div>
+				</div>
+				<div class="item">
+					<a href="#"><img class="img-slider" src="images/ropa2.jpg" /></a>
+					<div class="slider-text-right sliderleft">
+						<h2>Estampados</h2>
+						<p>
+							Estampamos cualquier tipo de diseños, frases comerciales y logotipos, ofrecemos varios tipos de estampados como plasta sol, 3D, alto relieve, etc. Aplicamos las mejores y modernas técnicas del mercado.
+						</p>
+						<a href="#" class="da-link">Comprar Ahora</a>
+					</div>
+				</div>
+				<div class="item">
+					<a href="#"><img class="img-slider" src="images/ropa3.jpg" /></a>
+					<div class="carousel-caption">
+					</div>
+				</div>
+			</div>
+
+			<a class="left carousel-control" href="#carousel-example" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
 		</div>
-		<div class="da-slide">
-			<h2>Misión</h2>
-			<p>Publitexliz se propone en ser la mejor fábrica de ropa industrial publicitaria del Perú y américa latina.</p>
-			<a href="#" class="da-link">Comprar Ahora</a>
-			<div class="da-img"><img class="img-camisa" src="images/camisas/camisa5.png" alt="image01" /></div>
-		</div>
-		<div class="da-slide">
-			<h2>Estampados</h2>
-			<p>Estampamos cualquier tipo de diseños, frases comerciales y logotipos, ofrecemos varios tipos de estampados como plasta sol, 3D, alto relieve, etc. Aplicamos las mejores y modernas técnicas del mercado.</p>
-			<a href="#" class="da-link">Comprar Ahora</a>
-			<div class="da-img"><img src="images/estampado.png" alt="image01" /></div>
-		</div>
-		<div class="da-slide">
-			<h2>BORDADOS</h2>
-			<p>Bordamos logotipos, frases comerciales e imágenes con amplia variedad de colores, en diferentes tamaños y en distintos tipos de telas o prendas. Utilizamos los mejores programas de diseño para bordados.</p>
-			<a href="#" class="da-link">Comprar Ahora</a>
-			<div class="da-img"><img src="images/borda.png" alt="image01" /></div>
-		</div>
-		<nav class="da-arrows">
-			<span class="da-arrows-prev"></span>
-			<span class="da-arrows-next"></span>
-		</nav>
 	</div>
 	<!----start-cursual---->
 	<div class="wrap">
@@ -334,7 +352,45 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<script type="text/javascript" src="js/jquery.cslider.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('#da-slider').cslider();
+		});
+	</script>
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function () {
 
+			$("#owl-demo").owlCarousel({
+				items: 4,
+				lazyLoad: true,
+				autoPlay: true,
+				navigation: true,
+				navigationText: ["", ""],
+				rewindNav: false,
+				scrollPerPage: false,
+				pagination: false,
+				paginationNumbers: false,
+			});
+
+		});
+	</script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1200);
+			});
+		});
+	</script>
 </body>
 
 </html>
