@@ -260,6 +260,7 @@ body {
 
 .logo {
 	float: left;
+	max-width: 40%;
 }
 
 .img-mision {
