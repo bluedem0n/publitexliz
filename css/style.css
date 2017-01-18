@@ -1028,13 +1028,14 @@ body {
 }
 
 .portfolio img {
-	max-width: 100%;
-	position: relative;
-	-webkit-filter: grayscale(50%);
-	opacity: 5;
-	transition: all 300ms!important;
-	-webkit-transition: all 300ms!important;
-	-moz-transition: all 300ms!important;
+    height: 260px;
+    width: 300px;
+    position: relative;
+    -webkit-filter: grayscale(50%);
+    opacity: 5;
+    transition: all 300ms!important;
+    -webkit-transition: all 300ms!important;
+    -moz-transition: all 300ms!important;
 }
 
 .portfolio .label {
