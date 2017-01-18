@@ -1,0 +1,205 @@
+    /*--responsive--*/
+
+    @media only screen and (device-aspect-ratio: 1024/768) and (orientation: portrait) {}
+
+    @media(max-width:1280px) {
+        .navbar-nav > li > .mega-dropdown-menu {
+            left: -130%;
+        }
+        .img-funciona {
+            width: 100%
+        }
+    }
+
+    @media(max-width:1220px) {
+        .h_menu4 {
+            margin-left: 16.6%;
+        }
+        ul.nav_1 li a {
+            padding: 1.6em 1.2em;
+            display: block !important;
+            color: #666;
+        }
+        .col1 ul li a {
+            padding: 6px 0px;
+        }
+        .navbar-nav > li > .dropdown-menu {
+            left: -197%;
+        }
+        .navbar-nav > li > .mega-dropdown-menu {
+            left: -387%;
+        }
+        .col-pic {
+            padding-top: 5em;
+        }
+    }
+
+    @media(max-width:1000px) {
+        .img-funciona {
+            width: 100%
+        }
+        .logo2 img {
+            display: none;
+        }
+        .navbar-toggle {
+            background-color: #000 !important;
+        }
+        .navbar-toggle .icon-bar {
+            background-color: #fff;
+        }
+        .header-login {
+            margin-left: 24%;
+            width: 33%;
+            float: left;
+        }
+        .h_menu4 {
+            margin-left: 21.8%;
+            width: 56%;
+            padding: 0;
+            float: left;
+        }
+    }
+
+    @media(max-width:765px) {
+        .menu-top {
+            width: 660px;
+            padding: 1em;
+        }
+        .navbar-nav > li > .dropdown-menu {
+            left: -233%;
+        }
+        .col1 h4 {
+            font-size: 1.2em;
+        }
+        .navbar-nav > li > .mega-dropdown-menu {
+            left: -490%;
+        }
+        .col-md {
+            width: 83%;
+            margin: 0 auto;
+            padding-bottom: 2em;
+        }
+        .col-md1 {
+            width: 83%;
+            margin: 0 auto;
+        }
+    }
+
+    @media(max-width:768px) {}
+
+    @media(max-width:991px) {
+        .btn-navbar {
+            display: none;
+        }
+        .btn-movil {
+            width: 225px;
+            height: 50px;
+            margin-left: -2.5em;
+            line-height: 32px;
+        }
+        .header-login {
+            margin-left: 29%;
+            width: 36%;
+        }
+        .nav > li > a {
+            padding: 1.2em 3em !important;
+            width: 171px;
+        }
+        .navbar-nav {
+            margin: 0;
+            width: 100%;
+        }
+        .col1 {
+            float: none;
+            width: 100%;
+        }
+        ul.nav_1 li:hover {
+            border-bottom: 1px solid #EFEFEF;
+        }
+        .navbar-nav > li > .dropdown-menu {
+            left: inherit;
+        }
+        .navbar-nav > li > .mega-dropdown-menu {
+            left: inherit;
+        }
+        .menu-top {
+            width: 160px;
+        }
+    }
+
+    @media (max-width: 640px) {}
+
+    @media (max-width: 620px) {}
+
+    @media(max-width:568px) {
+        .header-top {
+            padding: 0.7em 0;
+        }
+        .search-right {
+            width: 36%;
+            float: right;
+        }
+        .h_menu4 {
+            width: 30%;
+            margin: 0;
+        }
+        .navbar-toggle {
+            float: left;
+        }
+        .logo {
+            left: -3%;
+            z-index: 1;
+        }
+        .nav > li > a {
+            padding: 0.8em 2em !important;
+        }
+        #carousel-example {
+            display: none;
+        }
+        .carousel-indicators .carousel-control .carousel-inner {
+            display: none;
+        }
+        .hero-movil {
+            display: block;
+        }
+        .map iframe {
+            width: 280px;
+            height: 250px;
+        }
+    }
+
+    @media(max-width:480px) {}
+
+    @media(max-width:390px) {
+        .header {
+            background-color: white !important;
+        }
+        .logo {
+            left: -11%;
+        }
+        .logo img {
+            position: relative;
+            left: 10em;
+            top: 2em;
+            height: 92px;
+            max-width: none;
+        }
+        .header-top {
+            padding: 0.53em 0;
+        }
+        .header-login ul li a {
+            font-size: 0.78em;
+            margin: 0 0.1em;
+        }
+        .h_menu4 {
+            width: 42%;
+        }
+        .nav > li > a {
+            padding: 0.8em 1em !important;
+            width: 160px;
+        }
+    }
+
+    .search-right {}
+
+    @media(max-width:320px) {}

@@ -11,6 +11,15 @@
 
 /*--header--*/
 
+.hero-movil {
+    background: url(../images/bg_header.jpg);
+    background-position: bottom center;
+    background-size: 850px auto;
+    background-repeat: repeat-x;
+    height: 90vh;
+    display: none;
+}
+
 .head {
     position: relative;
 }
