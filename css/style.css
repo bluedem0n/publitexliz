@@ -1055,7 +1055,10 @@ body {
 	height: 366px !important;
 	width: 209px !important;
 }
-
+.guardamujer {
+	height: 366px !important;
+	width: 260px !important;
+}
 .portfolio .label {
 	position: absolute;
 	width: 100%;
