@@ -275,7 +275,15 @@ body {
 .img-camisa {
 	margin-top: -5em;
 }
-
+.img-contacto{
+	margin-left: 10em;
+}
+.social span{
+	font-family: 2px;
+}
+.mt-2{
+	margin-top: 1.5em;
+}
 
 /*search*/
 
