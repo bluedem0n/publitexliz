@@ -163,7 +163,7 @@
             display: block;
         }
         .map iframe {
-            width: 280px;
+            width: 330px;
             height: 250px;
         }
     }
@@ -179,8 +179,8 @@
         }
         .logo img {
             position: relative;
-            left: 10em;
-            top: 2em;
+            left: 9em;
+            top: 4em;
             height: 92px;
             max-width: none;
         }
