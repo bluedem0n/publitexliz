@@ -254,6 +254,7 @@ body {
 	background: #ffffff;
 	background-repeat: no-repeat;
 }
+
 .logo {
 	float: left;
 	max-width: 40%;
@@ -275,15 +276,19 @@ body {
 .img-camisa {
 	margin-top: -5em;
 }
-.img-contacto{
+
+.img-contacto {
 	margin-left: 10em;
 }
-.social span{
+
+.social span {
 	font-family: 2px;
 }
-.mt-2{
+
+.mt-2 {
 	margin-top: 1.5em;
 }
+
 
 /*search*/
 
@@ -1036,14 +1041,19 @@ body {
 }
 
 .portfolio img {
-    height: 250px;
-    width: 300px;
-    position: relative;
-    -webkit-filter: grayscale(50%);
-    opacity: 5;
-    transition: all 300ms!important;
-    -webkit-transition: all 300ms!important;
-    -moz-transition: all 300ms!important;
+	height: 250px;
+	width: 300px;
+	position: relative;
+	-webkit-filter: grayscale(50%);
+	opacity: 5;
+	transition: all 300ms!important;
+	-webkit-transition: all 300ms!important;
+	-moz-transition: all 300ms!important;
+}
+
+.guarda {
+	height: 366px !important;
+	width: 209px !important;
 }
 
 .portfolio .label {
