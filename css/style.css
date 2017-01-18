@@ -1028,7 +1028,7 @@ body {
 }
 
 .portfolio img {
-    height: 260px;
+    height: 300px;
     width: 300px;
     position: relative;
     -webkit-filter: grayscale(50%);
